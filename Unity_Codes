@@ -185,7 +185,7 @@ public class KolDondur : MonoBehaviour {
 			if (Ways == 0) /*If there is no way to go there in mathematicly than by the variables,  
 			the Xn and Yn will change again and again until it finds a way to go there. With this way 
 			the  driver who control robotic arm can easly see the 
-			 breaking points and accelerated parts .This part is giving the user to control robotic arm more efficiently. */
+			 breaking points and accelerated parts .Briefly this place gives the user to control robotic arm more efficiently. */
 			{
 				while (true)
 				{
@@ -248,13 +248,13 @@ public class KolDondur : MonoBehaviour {
 				}
 			}
            
-                Lengths_of_the_dots();
+                Lengths_of_the_dots(); // A function that finds the best angle. 
 
 
 
 
 
-			if (a1new[c] == 1111 || a2new[c] == 1111 || a3new[c] == 1111) h = 0; // Program can eliminate not wanted angles with this method
+			if (a1new[c] == 1111 || a2new[c] == 1111 || a3new[c] == 1111) h = 0; // Program can eliminate unwanted angles with this method
          
 
 			if (h == 0)
@@ -336,7 +336,7 @@ public class KolDondur : MonoBehaviour {
 				Byy[j] = Bynew;
 				Pxy[j] = Pxnew;
 				Pyy[j] = Pynew;
-// This program is only checking first region and fourth region  in coordinate table 
+                              // This program is only checking first region and fourth region  in coordinate table 
 				if (Xcos > 0 && Ysin < 0)
 				{
 
