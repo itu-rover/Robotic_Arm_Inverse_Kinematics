@@ -1,3 +1,16 @@
+ /* Unity Codes For Robotic Arm's Inverse Kinematics with Combining Iterative and Geometrical Method  
+ Robotic Arm physically has 3 joints and  7 axes. 
+ Inputs : W,S,A,D,U,J,T,G
+ W and S is changing Last Joint's X axes
+ T and G is changing Last Joint's Y axes
+ A and D is changing Last Joint's Z axes
+ U and J is changing Last Joint's fi axes which is wrist of robotic arm
+ 
+ ISTANBUL TECHNICAL UNIVERSITY ROVER TEAM
+
+
+*/
+
 using UnityEngine;
 using System.Collections;
 using System;
